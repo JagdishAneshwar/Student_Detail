@@ -41,7 +41,7 @@ $fetch = mysqli_fetch_array($query);
 
                     <!-- general information -->
                     <div class="card-header bg-transparent border-0">
-                        <h3 class="mb-0"><i class="far fa-clone pr-1"></i>General Information</h3>
+                        <h3 class="mb-0"><i class="far fa-clone pr-1"></i>Academic Information</h3>
                     </div>
 
 
@@ -50,7 +50,12 @@ $fetch = mysqli_fetch_array($query);
                             <tr>
                                 <th width="30%">Student ID</th>
                                 <td width="2%">:</td>
-                                <td><?= $fetch['id']; ?>/td>
+                                <td><?= $fetch['id']; ?></td>
+                            </tr>
+                            <tr>
+                                <th width="30%">Roll No</th>
+                                <td width="2%">:</td>
+                                <td><?= $fetch['roll_no']; ?></td>
                             </tr>
                             <tr>
                                 <th width="30%">Class</th>
@@ -91,16 +96,20 @@ $fetch = mysqli_fetch_array($query);
                                 <td><?= $fetch['username']; ?> <?= $fetch['mid_name']; ?> <?= $fetch['last_name']; ?></td>
                             </tr>
                             <tr>
-                                <th width="30%">Roll No</th>
-                                <td width="2%">:</td>
-                                <td><?= $fetch['roll_no']; ?></td>
-                            </tr>
-                            <tr>
                                 <th width="30%">Gender</th>
                                 <td width="2%">:</td>
                                 <td><?= $fetch['gen']; ?></td>
                             </tr>
                             <tr>
+                                <th width="30%">Contact Number</th>
+                                <td width="2%">:</td>
+                                <td><?= $fetch['contact']; ?></td>
+                            </tr>
+                            <tr>
+                                <th width="30%">Email</th>
+                                <td width="2%">:</td>
+                                <td><?= $fetch['email']; ?></td>
+                            </tr>
                         </table>
                     </div>
                 </div>
