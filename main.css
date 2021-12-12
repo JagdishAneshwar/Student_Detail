@@ -1,0 +1,210 @@
+/* Column 8/12 */
+section .col-lg-8{
+ margin-right:0px;
+ transform:translatex(0px) translatey(0px);
+ position:relative;
+ left:0px;
+}
+
+/* Card body */
+.col-lg-8 .card .card-body{
+ flex:0 0 auto;
+}
+
+/* Card */
+section .card:nth-child(1){
+ padding-left:44px;
+ padding-bottom:0px;
+ padding-right:44px;
+}
+
+/* Card body */
+section .col-rt-12 .card-body{
+ padding-left:62px;
+ padding-right:62px;
+ margin-top:9px;
+ margin-bottom:10px;
+}
+
+/* Heading */
+.col-lg-8 .card:nth-child(1) h3{
+ margin-bottom:12px !important;
+ margin-top:22px;
+}
+/* Card body */
+.Scriptcontent .card-body .card-body{
+    transform:translatex(0px) translatey(0px);
+    padding-left:0px;
+    padding-right:0px;
+   }
+   
+   /* Card header */
+   .col-lg-8 .card .card-header{
+    background-color:#ffe6c9 !important;
+   }
+   
+   
+/* Card */
+section .card:nth-child(3){
+ padding-left:40px;
+ padding-right:40px;
+ transform:translatex(0px) translatey(0px);
+}
+
+/* Heading */
+.col-lg-8 .card:nth-child(3) h3{
+ margin-top:19px;
+ margin-bottom:7px !important;
+}
+
+/* Paragraph */
+.Scriptcontent .card-body p{
+ padding-bottom:1px;
+}
+
+/* Paragraph */
+.Scriptcontent .card-body p:nth-child(2){
+ padding-bottom:1px;
+}
+
+/* Paragraph */
+.Scriptcontent .card-body p:nth-child(3){
+ padding-bottom:1px;
+}
+
+@media (min-width:992px){
+
+ /* Column 8/12 */
+ section .col-lg-8{
+  width:100%;
+ }
+ 
+}/* Body */
+body{
+    background-color:#ffe6c9;
+   }
+   
+   /* Heading */
+   .ScriptHeader .rt-heading h1{
+    background-color:#f56554;
+    min-height:68px;
+    transform:translatex(0px) translatey(0px);
+    text-align:center;
+    letter-spacing:8.6px;
+    word-spacing:-0.4px;
+    color:#ffffff;
+    line-height:1.5em;
+   }
+   
+   /* Student profile */
+   .Scriptcontent center .student-profile{
+    min-height:473px;
+    transform:translatex(0px) translatey(0px);
+    position:relative;
+    left:8px;
+    margin-top:0px;
+    margin-bottom:-21px;
+    padding-left:0px;
+    padding-top:37px;
+    padding-bottom:26px;
+    background-color:#ffffff;
+    top:-1px;
+    width:101%;
+
+   }
+   
+   /* Profile img */
+   section .rt-container .col-rt-12 .Scriptcontent center .student-profile .container .profile_img{
+    width:100% !important;
+   }
+   
+   /* Heading */
+   .student-profile h3{
+    position:relative;
+    top:7px;
+   }
+   
+   /* Scriptcontent */
+   section .Scriptcontent{
+    transform:translatex(0px) translatey(0px);
+    position:relative;
+    top:-9px;
+    left:-5px;
+   }
+   
+   /* Menu */
+   .Scriptcontent .nav-pills{
+    padding-top:4px;
+    padding-bottom:4px;
+    word-spacing:0.3px;
+    list-style-type:none;
+    list-style-position:outside;
+    position:relative;
+    left:-6px;
+    flex-direction:row;
+    align-items:normal;
+    visibility:visible;
+    background-color:#ee6e73;
+    color:#ffffff;
+    transform:translatex(0px) translatey(0px);
+   }
+   
+
+   
+   /* Table */
+    .table{
+    border-color:#7f265b;
+   }
+   
+   /* Th */
+   table tr th{
+    background-color:#ffffff;
+    color:#7f265b;
+   }
+   
+   
+   /* Card */
+   section .card:nth-child(1){
+    top:-10px;
+    background-color:rgba(255,255,255,0);
+    box-shadow:0px 2px 0px 0px rgba(0,0,0,0.075) !important;
+   }
+   
+   /* Card */
+   section .card:nth-child(3){
+    top:-36px;
+    background-color:rgba(255,255,255,0);
+   }
+   
+   /* Menu */
+   section .rt-container .col-rt-12 .Scriptcontent .border-top .nav-pills{
+    width:101% !important;
+   }
+   
+   /* Heading */
+   .Scriptcontent .card-body h3{
+    text-decoration:underline;
+    transform:translatex(5px) translatey(0px);
+    color:#712222;
+   }
+   
+   /* Table Data */
+   table{
+    background-color:#ffffff;
+    border-color:#712222;
+   }
+   /* Heading */
+.Scriptcontent .card-body h3{
+    position:relative;
+    left:-21px;
+   }
+   
+   /* Heading */
+   .col-lg-8 .card h3{
+    background-color:transparent;
+    color:#7f265b;
+    text-decoration:underline;
+   }
+   
+   
+   
